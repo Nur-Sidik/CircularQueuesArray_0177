@@ -97,4 +97,12 @@ class Queues
             }
             FRONT_possitiion =  0;
 
+            while (FRONT_possitiion <= REAR_position)
+            {
+                cout << queue_array[FRONT_possitiion] << "  ";
+                FRONT_possitiion++;
+            }
+            cout << endl;
+        }
+    }
 };
