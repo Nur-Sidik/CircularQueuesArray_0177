@@ -50,6 +50,7 @@ class Queues
             cout << "Queues Underflow" << endl;
             return;
         }
+        cout << "Element telah di hapus dari Queue :" << queue_array[FRONT] << endl;
 
     }
 
