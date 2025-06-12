@@ -112,5 +112,41 @@ int main()
     Queues q;
     int choice;
 
+    while (true)
+    {
+        try
+        {
+            cout << "1. Insert" << endl;
+            cout << "2. Remove" << endl;
+            cout << "3. Display" << endl;
+            cout << "4. Exit" << endl;
+            cout << "Masukkan pilihan anda: ";
+            cin >> choice;
+            cout << endl;
 
+            switch (choice) 
+            {
+                case 1:
+                    q.insert();
+                    break;
+                case 2:
+                    q.remove();
+                    break;
+                case 3:
+                    q.display();
+                    break;
+                case 4:
+                    cout << "Keluar dari program." << endl;
+                    break;
+                default:
+                    cout << "Pilihan tidak valid." << endl;
+                    break;
+            }
+        }
+        catch (exception &e)
+        {
+            cout << " Periksa setiap nilai yang masuk" << endl;
+        }
+        return 0;
+    }
 }
