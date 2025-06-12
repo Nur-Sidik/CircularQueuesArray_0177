@@ -88,5 +88,13 @@ class Queues
             }
             cout << endl;
         }
+        else
+        {
+            while (FRONT_possitiion <= max - 1)
+            {
+                cout << queue_array[FRONT_possitiion] << "  ";
+                FRONT_possitiion++;
+            }
+            FRONT_possitiion =  0;
 
 };
