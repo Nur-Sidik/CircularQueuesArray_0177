@@ -21,5 +21,14 @@ class Queues
         cout << "Masukkan sebuah angka : ";
         cin >> num;
         cout << endl;
+    
+
+      if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) 
+      {
+        cout << "Queue Overflow" << endl;
+        return;
+      } 
+
     }
+
 };
