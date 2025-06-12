@@ -66,4 +66,9 @@ class Queues
         }
     }
 
+    void display()
+    {
+
+        
+    }
 };
