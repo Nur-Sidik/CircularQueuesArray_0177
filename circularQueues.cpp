@@ -106,3 +106,8 @@ class Queues
         }
     }
 };
+
+int main()
+{
+
+}
