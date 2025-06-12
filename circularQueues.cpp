@@ -78,7 +78,15 @@ class Queues
         }
 
         cout << "Elements di dalam Queue adalah... " << endl;
-
         
-    }
+        if (FRONT_possitiion <= REAR_position)
+        {
+            while (FRONT_possitiion <= REAR_position)
+            {
+                cout << queue_array[FRONT_possitiion] << "  ";
+                FRONT_possitiion++;
+            }
+            cout << endl;
+        }
+
 };
