@@ -71,6 +71,12 @@ class Queues
         int FRONT_possitiion = FRONT;
         int REAR_position = REAR;
 
+        if (FRONT == -1)
+        {
+            cout << "Queues Kosong" << endl;
+            return;
+        }
+
         
     }
 };
