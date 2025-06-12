@@ -52,6 +52,12 @@ class Queues
         }
         cout << "Element telah di hapus dari Queue :" << queue_array[FRONT] << endl;
 
+        if (FRONT == REAR)
+        {
+            FRONT = -1;
+            REAR = -1;
+        }
+    
     }
 
 };
