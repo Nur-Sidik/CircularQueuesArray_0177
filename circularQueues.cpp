@@ -15,4 +15,11 @@ class Queues
             REAR = -1;
         }
 
+    void insert()
+    {
+        int num;
+        cout << "Masukkan sebuah angka : ";
+        cin >> num;
+        cout << endl;
+    }
 };
