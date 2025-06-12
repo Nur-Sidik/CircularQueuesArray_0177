@@ -77,6 +77,8 @@ class Queues
             return;
         }
 
+        cout << "Elements di dalam Queue adalah... " << endl;
+
         
     }
 };
